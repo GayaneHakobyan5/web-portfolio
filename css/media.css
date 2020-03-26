@@ -126,6 +126,7 @@
         margin-left: 0;
         margin: 10px;
     }
+    
 }
 
 
@@ -188,15 +189,9 @@
     #contact{
         padding-top: 0;
     }
-}
 
-
-
-/*@media only screen and (min-width: 1440px) {
-    .container {
-        width: auto;
-        height: auto;
+    .container.contact_height {
+        height: calc(100vh - 66px);
+        margin-bottom: 0;
     }
-}*/
-
-
+}

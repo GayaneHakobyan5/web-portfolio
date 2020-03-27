@@ -38,6 +38,9 @@ body {
 .navbar {
     justify-content: flex-end;
     transition-duration: 0.6s;
+}
+
+.nav {
     cursor: pointer;
 }
 

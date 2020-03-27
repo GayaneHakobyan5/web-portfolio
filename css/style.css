@@ -15,7 +15,7 @@ body {
 
 
 * {
-    font-family: google-sans-cufonfonts;
+    font-family: google-sans-cufonfonts, Verdana, Sans-serif;
 }
 
 @font-face {
@@ -25,7 +25,7 @@ body {
 }
 
 .project-description-text {
-    font-family: google-sans-cufonfonts-thin;
+    font-family: google-sans-cufonfonts-thin, Verdana, Sans-serif;
     font-weight: 100;
 }
 

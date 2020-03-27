@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+* {
+    font-family: google-sans-cufonfonts, Verdana, Sans-serif;
+}
 
 body {
     overflow-x: hidden;
@@ -13,21 +16,11 @@ body {
     src: url(../font/ProductSans-Regular.ttf);
 }
 
-
-* {
-    font-family: google-sans-cufonfonts, Verdana, Sans-serif;
-}
-
 @font-face {
     font-family: google-sans-cufonfonts-thin;
     src: url(../font/ProductSans-Thin.ttf);
-
 }
 
-.project-description-text {
-    font-family: google-sans-cufonfonts-thin, Verdana, Sans-serif;
-    font-weight: 100;
-}
 
 /*Header Nav*/
 
@@ -92,7 +85,6 @@ body {
 .contacts-header .img_from_col {
     background: url(../img/logo-contacts.png) no-repeat 10%;
 }
-
 
 .navclass a {
     font-size: 18px;
@@ -173,6 +165,8 @@ body {
 }
 
 .project-description-text {
+    font-family: google-sans-cufonfonts-thin, Verdana, Sans-serif;
+    font-weight: 100;
     margin-bottom: 20px;
 }
 
@@ -332,7 +326,6 @@ div.slick-track {
     line-height: inherit;
     caret-color: rgb(var(--pure-material-primary-rgb, 26, 26, 24));
     transition: border 0.2s, box-shadow 0.2s;
-
 }
 
 /* Span */
@@ -487,7 +480,6 @@ div.slick-track {
     padding: 10px 0px;
     color: #e7a942;
     font-size: 18px;
-    /* font-family: "Google Sans", Verdana, Sans-serif;*/
     outline: none !important;
     border: none;
 }
@@ -504,7 +496,6 @@ div.slick-track {
 .find-me {
     display: inline-block;
     font-size: 18px;
-    /*font-family: "Google Sans", Verdana, Sans-serif;*/
 }
 
 .find-me a {
@@ -535,8 +526,7 @@ div.slick-track {
 
 footer {
     width: 100%;
-    background-color: #1a1a18;
-     
+    background-color: #1a1a18; 
 }
 
 .footer-cont {
@@ -546,11 +536,9 @@ footer {
 
 .f-text {
     font-size: 16px;
-    /*font-family: "Google Sans", Verdana, Sans-serif;*/
     display: inline;
     color: #f1f1f1;
 }
-
 
 .footer-logo {
     width: 20px;
@@ -590,7 +578,6 @@ div.footer-cont > p {
     cursor: pointer;
     background-color: #333;
 }
-
 
 #scroll-to-top.show {
     visibility: visible;
